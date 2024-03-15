@@ -32,4 +32,25 @@ $var8 = (string)$var_test7;
 var_dump($var7);
 echo is_string($var_test7);
 
+//declare array
+echo '<br><br>';
+$var8 = array(1,2,3,4);
+$var_test8 = '1234';
+$var9 = (array)$var_test8;
+var_dump($var9);
+echo is_array($var8);
+
+//declare null
+echo '<br><br>';
+$var10 = null;
+var_dump($var10);
+$var11 = (int)$var10;
+var_dump($var11);
+echo '<br>';
+var_dump($var_test11_1);
+$var_test11_1 = (string)$var10;
+echo '<br>';
+var_dump($var_test11_2);
+$var_test11_2 = (array)$var10;
+echo '<br>';
 ?>
