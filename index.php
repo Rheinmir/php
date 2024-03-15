@@ -74,5 +74,16 @@ echo ($var15 < $var17) || ($var16 > $var15); //bool = 1 true, if one of them are
 echo '<br><br><br>';
 //negative logical operator (!)
  $var19 = false;
-echo !$var19 // bool = 1 negative of $var19;
+echo !$var19;// bool = 1 negative of $var19;
+echo '<br><br>';
+//increment and decrement operator
+$a = 1; $b = 3;
+++$a; //$a = $a + 1 
+$b--; //$b = $b - 1
+echo $a. '<br>' .$b;
+/* In loop
+    $a++ => post-increment, increment by 1 after $a is returned
+    ++$a => pre-increment, increment by 1 before $a is returned
+    similar to decrement
+    */
 ?>
