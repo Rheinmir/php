@@ -1,12 +1,26 @@
 <?php
-//nested if else
-    $var = 2;
-    if($var > 0){ //if bool = true, then execute codes in scope
-        if($var > 3){ //if bool = true, then execute codes in scope, if bool not true, then execute code in else's scope
-            echo "var bigger than 3";
-        }
-        else {
-            echo "var does not bigger than 3";
-        }
-    }
-?>
+//switch case
+$day = 8;
+switch ($day) {
+    case 2:
+        echo "Today is Mon";
+        break;
+    case 3:
+        echo "Today is Tue";
+        break;
+    case 4:
+        echo "Today is Wed";
+        break;
+    case 5:
+        echo "Today is Thu";
+        break;
+    case 6:
+        echo "Today is Fri";
+        break;
+    case 7:
+        echo "Today is Sat";
+        break;
+    default:
+        echo "Today is Sun";
+        break;
+}
