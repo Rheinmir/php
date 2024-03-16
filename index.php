@@ -1,13 +1,7 @@
 <?php
-//for
-for($i = 0; $i < 10; $i++){
-    echo $i. '<br>';
-}
-echo "while loop: <br>";
-
-$i = 0;
-while($i < 10){
-    echo $i. '<br>';
+echo " do-while loop: <br>";
+$i = 11;
+do{
+    echo $i . '<br>';
     $i++;
-}
-?>
+} while ($i < 10);
