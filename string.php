@@ -4,9 +4,10 @@
 
 // define('_AGENCY', 'rhein');
 // define('_AGENCY2', "rhein");
-$Mir = 'nnn';
-echo "Rhein\"Mir\"- learning PHP".'<br>';
-echo "Rhein$Mir - learning PHP".'<br>';
-echo 'Rhein"Mir"- learning PHP'.'<br>';
+$string1 = "learn | programing | with | PHP";
+$arr = explode('|', $string1);
 
+var_dump($string1);
+echo '<br>';
+var_dump($arr);
 ?>
