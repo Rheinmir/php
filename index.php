@@ -8,12 +8,12 @@ for($i = 0; $i < 10; $i++){
 }
 
 // die ("pause");
-exit("pause");
+// exit("pause");
 
-for($i = 0; $i < 10; $i++){
-    if($i == 5){
-        continue;
-    }
-    echo $i. '<br>';
-}
+// for($i = 0; $i < 10; $i++){
+//     if($i == 5){
+//         continue;
+//     }
+//     echo $i. '<br>';
+// }
 ;?>
