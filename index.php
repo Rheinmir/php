@@ -1,7 +1,19 @@
 <?php
-echo " do-while loop: <br>";
-$i = 11;
-do{
-    echo $i . '<br>';
-    $i++;
-} while ($i < 10);
+for($i = 0; $i < 10; $i++){
+    if($i == 5){
+        // break;
+        continue;
+    }
+    echo $i. '<br>';
+}
+
+// die ("pause");
+exit("pause");
+
+for($i = 0; $i < 10; $i++){
+    if($i == 5){
+        continue;
+    }
+    echo $i. '<br>';
+}
+;?>
