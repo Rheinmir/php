@@ -23,14 +23,14 @@ for($i = $start;$i <=100; $i++)
 }
 
 if($evenCount > 0){
-    echo "Find out" .$evenCount." even number: ".$evenResult;
+    echo "Find out " .$evenCount." even number: ".$evenResult;
 }
 else {
     echo "Cant find evens";
 }
-
+echo '<br><br>';
 if($oddCount > 0){
-    echo "Find out" .$oddCount." odd number: ".$oddResult;
+    echo "Find out " .$oddCount." odd number: ".$oddResult;
 }
 else {
     echo "Cant find odds";
