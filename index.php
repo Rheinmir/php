@@ -1,14 +1,13 @@
 <?php
-//factorial loop
-$n = 10;
-if ($n > 0) {
-    $result = 1;
-    for ($i = 1; $i <= $n; $i++) {
-        $result *= $i;
-    }
-    echo "result = ".$result.'<br>';
+//for
+for($i = 0; $i < 10; $i++){
+    echo $i. '<br>';
 }
-else{
-    echo "the input is not valid";
-}
+echo "while loop: <br>";
 
+$i = 0;
+while($i < 10){
+    echo $i. '<br>';
+    $i++;
+}
+?>
