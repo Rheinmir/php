@@ -1,12 +1,18 @@
 <?php
-// function makeTotal($a,$b){
-//     $tong = $a + $b;
-//     echo 'Sum are: '.$tong;
-// }
-if(!function_exists('makeTotal')){
-    function makeTotal($a,$b){
-        $tong = $a + $b;
-        echo 'Sum are: '.$tong;
-    }
+$varGlobal = 100;
+function makeTotal($a,$b){
+    $sum = $a + $b;
+    echo 'Sum are: '.$sum;
+    return $sum;
 }
+    function doCount(){
+        static $number = 0;
+        $number++;
+        echo $number.'<br>';
+    }
+
+doCount();
+doCount();
+doCount();
+doCount();
 ?>

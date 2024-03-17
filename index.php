@@ -22,8 +22,6 @@ for($i = 0; $i < 10; $i++){
 $var1 = 7;
 $var2 = 8;
 
-
-if(!function_exists('makeTotal')){
-    makeTotal($var1, $var2);
-}
-;?>
+$varSum = makeTotal($var1, $var2);
+echo $varSUm;
+?>
