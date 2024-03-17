@@ -1,4 +1,5 @@
 <?php
+include_once('func.php');
 for($i = 0; $i < 10; $i++){
     if($i == 5){
         // break;
@@ -16,4 +17,13 @@ for($i = 0; $i < 10; $i++){
 //     }
 //     echo $i. '<br>';
 // }
+
+
+$var1 = 7;
+$var2 = 8;
+
+
+if(!function_exists('makeTotal')){
+    makeTotal($var1, $var2);
+}
 ;?>
