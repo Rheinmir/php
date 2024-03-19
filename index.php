@@ -23,5 +23,5 @@ $var1 = 7;
 $var2 = 8;
 
 $varSum = makeTotal($var1, $var2);
-echo $varSUm;
+echo $varSum;
 ?>
