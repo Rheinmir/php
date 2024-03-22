@@ -1,7 +1,7 @@
 <?php
     /*
     session
-    session in PHP is located on server(php.ini)
+    session in PHP is located on server(in XAMPP php.ini)
     client(browser/tab/...) closed, session'll be killed
     */ 
 
@@ -14,11 +14,23 @@
     */
     //create session
     $_SESSION['username'] = 'rhein';
-
+    $_SESSION['user'] = 'mir';
+    $_SESSION['login'] = 'urbanite';
+    
+    unset($_SESSION['username']);
+    
     echo '<pre>';
     print_r($_SESSION['username']);
     echo '</pre>';
     
+    echo '<pre>';
+    print_r($_SESSION['user']);
+    echo '</pre>';
+
+    echo '<pre>';
+    print_r($_SESSION['login']);
+    echo '</pre>';
+
     
 
 ?>
