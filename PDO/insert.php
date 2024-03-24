@@ -33,7 +33,7 @@ try {
     // $insertStatus/*check if program running or not  */ = $statement->execute(); 
     $insertStatus/*check if program running or not  */ = $statement->execute($data); //$data inserted
     var_dump($insertStatus);
-} catch (Exception $exception) {
+}catch (Exception $exception) {
     echo $exception->getMessage() . '<br>';
     echo 'File: ' . $exception->getFile() . '<br>';
     echo 'Line:' . $exception->getLine() . '<br>';
